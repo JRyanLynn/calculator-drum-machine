@@ -1,0 +1,64 @@
+<body>
+  
+  <div class="container" id="drum-machine">
+
+    <h1 class="title">Drum Machine</h1>
+
+    <div class="display-container">
+      <div id="display"></div>
+    </div>
+
+    <div class="first-set">
+
+      <div class="button-container">
+        <button onClick="play('Q')" data-key="81" class="drum-pad" id="kick" name="kick">Q
+          <audio class="clip" id="Q" data-key="81" src="https://sampleswap.org/samples-ghost/DRUMS%20(SINGLE%20HITS)/Kicks/45[kb]BT3A0DA.wav.mp3"></audio>
+        </button>
+
+        <button onClick="play('W')" data-key="87" class="drum-pad" id="ring" name="ring">W
+          <audio class="clip" id="W" data-key="87" src="https://sampleswap.org/samples-ghost/DRUMS%20(SINGLE%20HITS)/Cymbals/433[kb]clear-bell-pling.wav.mp3"> </audio>
+        </button>
+
+        <button onClick="play('E')" data-key="69" class="drum-pad" id="snare" name="snare">E
+          <audio class="clip" id="E" data-key="69" src="https://sampleswap.org/samples-ghost/DRUMS%20(SINGLE%20HITS)/Snares/49[kb]ec-sn033.wav.mp3">
+          </audio>
+        </button>
+      </div>
+
+      <div class="second-set">
+        <button onClick="play('A')" data-key="65" class="drum-pad" id="tom" name="tom">A
+          <audio class="clip" id="A" data-key="65" src="https://sampleswap.org/samples-ghost/DRUMS%20(SINGLE%20HITS)/Toms/264[kb]ambient_tom_1.wav.mp3"> </audio>
+        </button>
+
+        <button onClick="play('S')" data-key="83" class="drum-pad" id="floor-tom" name="floor-tom">S
+          <audio class="clip" id="S" data-key="83" src="https://sampleswap.org/samples-ghost/DRUMS%20(SINGLE%20HITS)/Toms/190[kb]giant_floor_tom.wav.mp3"> </audio>
+        </button>
+
+        <button onClick="play('D')" data-key="68" class="drum-pad" id="small-tom" name="small-tom">D
+          <audio class="clip" id="D" data-key="68" src="https://sampleswap.org/samples-ghost/DRUMS%20(SINGLE%20HITS)/Toms/225[kb]tom-tom-spring-verb-hi.wav.mp3">
+          </audio>
+        </button>
+      </div>
+
+      <div class="thrid-set">
+        <button onClick="play('Z')" data-key="90" class="drum-pad" id="funky-sound" name="funky-sound">Z
+
+          <audio class="clip" id="Z" data-key="90" src="https://sampleswap.org/samples-ghost/INSTRUMENTS%20(SINGLE%20SAMPLES)/Jungle%20Bass/70[kb]shiphorn_tekstep_bass.wav.mp3">
+          </audio>
+        </button>
+
+        <button onClick="play('X')" data-key="88" class="drum-pad" id="wobble" name="wobble">X
+
+          <audio class="clip" id="X" data-key="88" src="https://sampleswap.org/samples-ghost/INSTRUMENTS%20(SINGLE%20SAMPLES)/Jungle%20Bass/68[kb]sweep_me_low_bass.wav.mp3">
+          </audio>
+        </button>
+
+        <button onClick="play('C')" data-key="67" class="drum-pad" id="trippy" name="trippy">C
+
+          <audio class="clip" id="C" data-key="67" src="https://sampleswap.org/samples-ghost/SOUND%20EFFECTS%20and%20NOISES/Electro%20and%20Synthetic/766[kb]whoosh-swhoosh-whoosh.wav.mp3">
+          </audio>
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
